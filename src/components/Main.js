@@ -21,7 +21,7 @@ export class Main extends React.Component {
     render() {
         return(
             <div className="main">
-                <Profile/>
+                <Profile playerInfo={this.state.playerInfo}/>
                 <ShotChart playerId={this.state.playerId}/>
             </div>
         );
