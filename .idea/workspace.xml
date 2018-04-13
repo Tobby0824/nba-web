@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc84c41-b969-4e7e-98da-a4d4544beffb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/components/CountSlider.js" afterPath="$PROJECT_DIR$/src/components/CountSlider.js" />
       <change beforePath="$PROJECT_DIR$/src/components/DataViewContainer.js" afterPath="$PROJECT_DIR$/src/components/DataViewContainer.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/ShotChart.js" afterPath="$PROJECT_DIR$/src/components/ShotChart.js" />
-      <change beforePath="$PROJECT_DIR$/src/styles/DataViewContainer.css" afterPath="$PROJECT_DIR$/src/styles/DataViewContainer.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataViewContainer.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DataViewContainer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/DataViewContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="428">
+              <caret line="38" column="68" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="68" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -80,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataViewContainer.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataViewContainer.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/DataViewContainer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -93,8 +91,8 @@
       <file leaf-file-name="CountSlider.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/CountSlider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="18" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="210">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -150,11 +148,11 @@
         <option value="$PROJECT_DIR$/src/styles/ShotChart.css" />
         <option value="$PROJECT_DIR$/src/styles/Main.css" />
         <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/components/CountSlider.js" />
         <option value="$PROJECT_DIR$/src/components/Main.js" />
         <option value="$PROJECT_DIR$/src/components/ShotChart.js" />
-        <option value="$PROJECT_DIR$/src/components/DataViewContainer.js" />
         <option value="$PROJECT_DIR$/src/styles/DataViewContainer.css" />
+        <option value="$PROJECT_DIR$/src/components/CountSlider.js" />
+        <option value="$PROJECT_DIR$/src/components/DataViewContainer.js" />
       </list>
     </option>
   </component>
@@ -213,19 +211,6 @@
               <item name="nba-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="nba-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nba-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nba-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nba-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nba-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nba-web" type="b2602c69:ProjectViewProjectNode" />
@@ -374,12 +359,12 @@
       <updated>1523135063493</updated>
       <workItem from="1523135068151" duration="10740000" />
       <workItem from="1523499980042" duration="34000" />
-      <workItem from="1523584597382" duration="8249000" />
+      <workItem from="1523584597382" duration="9197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19023000" />
+    <option name="totallyTimeSpent" value="19971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1727" y="-2" width="1400" height="910" extended-state="0" />
@@ -707,16 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CountSlider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="30" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -724,6 +699,14 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/DataViewContainer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -735,21 +718,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DataViewContainer.js">
+    <entry file="file://$PROJECT_DIR$/src/components/CountSlider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/DataViewContainer.css">
+    <entry file="file://$PROJECT_DIR$/src/components/DataViewContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="428">
+          <caret line="38" column="68" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
