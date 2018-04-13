@@ -12,6 +12,7 @@ export class ShotChart extends React.Component {
         playerId: PropTypes.number,
         minCount: PropTypes.number,
         chartType: PropTypes.string,
+        displayTooltip: PropTypes.bool,
     }
 
     componentDidUpdate() {
@@ -32,7 +33,7 @@ export class ShotChart extends React.Component {
             const chart_court = court().width(500);
             const chart_shots = shots()
                 .shotRenderThreshold(this.props.minCount)
-                .displayToolTips(true)
+                .displayToolTips(this.props.displayTooltip)
                 .displayType(this.props.chartType);
             courtSelection.call(chart_court);
             courtSelection.datum(final_shots).call(chart_shots);
