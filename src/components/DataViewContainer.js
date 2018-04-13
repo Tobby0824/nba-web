@@ -1,7 +1,7 @@
 import React from 'react';
 import { ShotChart } from "./ShotChart";
 import { CountSlider} from "./CountSlider";
-import { Radio } from 'antd';
+import { Radio, Row, Col } from 'antd';
 const RadioGroup = Radio.Group;
 
 export class DataViewContainer extends React.Component {
@@ -29,10 +29,16 @@ export class DataViewContainer extends React.Component {
                 <div className = "filters">
                     <CountSlider onCountSliderChange={this.onCountSliderChange}/>
 
-                    <RadioGroup onChange={this.onChartTypeChange} value={this.state.chartType}>
-                        <Radio value={"hexbin"}>Hexbin</Radio>
-                        <Radio value={"scatter"}>Scatter</Radio>
-                    </RadioGroup>
+                    <Row>
+                        <Col span={9}>
+                            <RadioGroup onChange={this.onChartTypeChange} value={this.state.chartType}>
+                                <Radio value={"hexbin"}>Hexbin</Radio>
+                                <Radio value={"scatter"}>Scatter</Radio>
+                            </RadioGroup>
+                        </Col>
+                        <Col span={4}>
+                        </Col>
+                    </Row>
                 </div>
 
             </div>
