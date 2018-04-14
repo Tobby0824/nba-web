@@ -2,3 +2,11 @@
     width: 750px;
     margin-bottom: 30px;
 }
+
+.player-option-image {
+    height: 32px;
+    margin-right: 20px;
+}
+.player-option-label {
+    font-size: 15px;
+}
